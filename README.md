@@ -1,21 +1,11 @@
-# node
+其实就是建议的node作为后台,vue axios 作为请求。用到mongoDb,Koa2 跨域及其轮子。
 
-> login
+const jwt = require('jsonwebtoken')
 
-## Build Setup
+jwt 作为 token的使用
 
-``` bash
-# install dependencies
-npm install
+npm run dev 启动vue      端口号localhost:8080
 
-# serve with hot reload at localhost:8080
-npm run dev
+cd service文件夹 
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+node index.js 启动node   端口号localhost:3000
