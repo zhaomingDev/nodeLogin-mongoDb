@@ -1,4 +1,4 @@
-其实就是建议的node作为后台,vue axios 作为请求。用到mongoDb,Koa2 跨域及其轮子。
+其实就是简易的node作为后台,vue axios 作为请求。用到mongoDb,Koa2 跨域及其轮子。
 
 const jwt = require('jsonwebtoken')
 
